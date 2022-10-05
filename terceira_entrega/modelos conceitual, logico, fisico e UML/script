@@ -1,0 +1,31 @@
+/* modelo_logico_agencia: */
+
+CREATE DATABASE agencia;
+
+USE agencia;
+
+CREATE TABLE Cliente (
+	CLIENTE_ID int PRIMARY KEY not null AUTO_INCREMENT,
+    Nome VARCHAR(70) not null,
+    cpf VARCHAR(70) not null,
+    Idade int not null,
+    dataCadastro DATE,
+    email VARCHAR(70) not null,
+    senha VARCHAR(70) not null,
+    UNIQUE (email, senha, cpf)
+);
+
+CREATE TABLE Passagem (
+    PASSAGEM_ID int PRIMARY KEY not null,
+    fk_Cliente_CLIENTE_ID int,
+    Data_viagem DATE,
+    Destino VARCHAR(70) not null,
+    Origem VARCHAR(70) not null,
+    Status_compra VARCHAR(70) not null,
+    Data_compra VARCHAR(70)
+);
+ 
+ALTER TABLE Passagem ADD CONSTRAINT FK_Passagem_2
+    FOREIGN KEY (fk_Cliente_CLIENTE_ID)
+    REFERENCES Cliente (CLIENTE_ID)
+    ON DELETE RESTRICT;

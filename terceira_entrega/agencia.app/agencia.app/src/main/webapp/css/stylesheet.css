@@ -1,0 +1,158 @@
+
+/*Breakpoints*/
+@media screen and (max-width: 950px){
+    div.carou {
+
+        margin-top: 50px;
+        height: 250px;
+        width:  350px;
+      
+    }
+
+    .d-flex {
+        display: none !important;
+    }
+
+  }
+
+@media screen and (max-width: 485px){
+    div.carou {
+
+        margin-top: 50px;
+        height: 200px;
+        width:  300px;
+    }
+
+    div.formFix {
+        width: 350px;
+    }
+
+    .d-flex {
+        display: none !important;
+    }
+
+  }
+
+
+
+/*form tamanho*/
+
+.contatoForm{
+    width: 450px;
+}
+
+
+/* class colors*/
+
+.body-color{
+    background-color: #ffffff;
+}
+
+.bg-agencia2{
+    background-color: #9c9cfa;
+}
+
+.bg-agencia{
+    background-color: #1B1F3B;
+}
+
+.bg-transparente{
+    background-color: rgba(199, 218, 253, 0.5);
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+/*linha a baixo do texto de login tirada*/
+
+.login{
+    text-decoration: none;
+    color: #F7F7FF;
+}
+
+.hover-color:hover{
+    color: rgb(47, 0, 255) !important;
+}
+
+a:hover,svg:hover {
+    fill:rgb(47, 0, 255) !important;
+    color: rgb(47, 0, 255) !important;
+}
+
+.navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: rgb(47, 0, 255) !important;
+}
+
+.contorno{
+    color: rgb(47, 0, 255);
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+
+/* class carrossel*/
+
+.carou{
+    margin-top: 50px;
+    height: 600px;
+    width: 700px;
+}
+
+.caption-carou{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1b1f3b9c;
+    border-radius: 20px;
+}
+
+/*centraliza tudo numa coluna*/
+
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*hover navbar*/
+
+.navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: rgb(55, 55, 255) !important;
+}
+
+
+
+
+section.le{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.img-g{
+    background-size: cover;
+    background-position: center;
+    background-position-x: right;
+}
+
+/* texto branco com contorno preto*/
+
+.txt-g{
+     color: rgb(255, 255, 255);
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+
+body{
+    background: #3399ff;
+  }
+
+#twitter, #facebook, #instagram  > path{
+    fill: white;
+}
+  
+.login_center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
