@@ -12,7 +12,7 @@ Minha primeira entrega foi separado em front-end e back-end, pra front-end foi p
 
 
 segue imagem de como ficou o site:
-![](site.png)
+![image](https://user-images.githubusercontent.com/101137945/194147217-b323086c-04e3-4f5e-bd26-9ee6839c267b.png)
 
 ## Segunda entrega
 
