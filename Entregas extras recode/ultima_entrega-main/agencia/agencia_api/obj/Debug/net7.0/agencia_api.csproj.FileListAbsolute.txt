@@ -1,0 +1,7 @@
+C:\Users\giova\source\repos\agencia_api\agencia_api\obj\Debug\net7.0\agencia_api.csproj.AssemblyReference.cache
+C:\Users\giova\source\repos\agencia_api\agencia_api\obj\Debug\net7.0\agencia_api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\giova\source\repos\agencia_api\agencia_api\obj\Debug\net7.0\agencia_api.AssemblyInfoInputs.cache
+C:\Users\giova\source\repos\agencia_api\agencia_api\obj\Debug\net7.0\agencia_api.AssemblyInfo.cs
+C:\Users\giova\source\repos\agencia_api\agencia_api\obj\Debug\net7.0\agencia_api.csproj.CoreCompileInputs.cache
+C:\Users\giova\source\repos\agencia_api\agencia_api\obj\Debug\net7.0\agencia_api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\giova\source\repos\agencia_api\agencia_api\obj\Debug\net7.0\agencia_api.MvcApplicationPartsAssemblyInfo.cache
